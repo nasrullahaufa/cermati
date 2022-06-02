@@ -1,0 +1,47 @@
+.notificationBar {
+  background-color: #e5e5e5;
+
+  /* border:1px solid red; */
+}
+.notificationContent {
+  max-width: 720px;
+  margin: auto;
+  display: flex;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+body {
+  margin: 0;
+}
+.notificationButton {
+  background-color: #007bc1;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  width: 50px;
+  height: 100%;
+}
+.notificationButtonDiv {
+  height: inherit;
+}
+
+.introduction {
+    background-image: url('./assets/desk.jpg') !important;
+  background-size:cover; 
+  background-repeat: no-repeat;
+  height:75vh;
+  background-position: center; 
+  /* filter: invert(7%) sepia(61%) saturate(740%) hue-rotate(160deg) brightness(92%) contrast(102%); */
+
+
+}
+.introductionContent{
+    height:75vh;
+    background-color:#004a75;
+    opacity: 0.4
+    /* background-color:rgba(0,0,255,0.4) */
+}
+.yLogo{
+    height:10% !important;
+    margin-left: 10vw;
+}
